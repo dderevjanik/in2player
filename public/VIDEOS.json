@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "id": "0",
+      "date": 31709848710941,
+      "name": "Waking up",
+      "url": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+      "sequences": [[0.1, 0.2, "first chapter"], [0.5, 0.6, "waking up"], [0.7, 0.95, "out of house"]]
+    },
+    {
+      "id": "1",
+      "date": 31709848710941,
+      "name": "Butterfly",
+      "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "sequences": [[0.1, 0.2, "smiling"], [0.25, 0.40, "butrfly"], [0.67, 0.89, "shot"]]
+    },
+    {
+      "id": "3",
+      "date": 31709848710941,
+      "name": "The web is always changing",
+      "url": "https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm",
+      "sequences": [[0.1, 0.2, "starting"], [0.43, 0.9, "whole borign video"]]
+    },
+    {
+      "id": "4",
+      "date": 31709848710941,
+      "name": "QTake",
+      "url": "http://qtakehd.com/video/new_features/QTAKE_1_3_new_features.mp4",
+      "sequences": [[0.1, 0.2, "intro"], [0.4, 0.65, "core principles"]]
+    }
+  ]
+}
