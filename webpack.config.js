@@ -8,11 +8,11 @@ const baseConfig = {
   },
   target: 'web',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'docs'),
     filename: '[name].js'
   },
   devServer: {
-    contentBase: __dirname + '/public'
+    contentBase: __dirname + '/docs'
   },
   resolve: {
     // Add '.ts' and '.tsx' as a resolvable extension.

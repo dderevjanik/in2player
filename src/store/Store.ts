@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 import { message } from 'antd';
 import { Action } from './Actions';
 import { Video } from '../types/Video';
-const staticState = require('../../public/VIDEOS.json') as State;
+const staticState = require('../../docs/VIDEOS.json') as State;
 
 export type State = {
   videos: Video[];
