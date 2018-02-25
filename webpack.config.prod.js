@@ -31,7 +31,12 @@ const baseConfig = {
       }
     ]
   },
-  plugins: [new UglifyJsPlugin()]
+  plugins: [
+    new Webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
+    new UglifyJsPlugin({})
+  ]
 };
 
 module.exports = baseConfig;
