@@ -1,8 +1,8 @@
 # in2player
 
-![Preview of unfinished App]()
+[App preview](https://dderevjanik.github.io/in2player/index.html)
 
-![Preview of video component]()
+[Demo video preview](https://dderevjanik.github.io/in2player/demo.html)
 
 ## Development
 
