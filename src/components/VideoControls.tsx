@@ -95,7 +95,6 @@ export class VideoControls extends React.Component<Props, {}> {
       } else {
         const rX = e.offsetX * (100 / canvas.width) / 100;
         const nearestIndex = getNearest(rX, this.props.segments);
-        console.log('result: ', nearestIndex);
         this.hoverXY = [this.props.segments[nearestIndex][0] * canvas.width, e.offsetY];
         this.hoverPredictedSegment = nearestIndex;
       }

@@ -32,7 +32,6 @@ export class VideoPlayer extends React.Component<Props, State> {
 
   seekTo = (seconds: number) => {
     const video = this.refs.reactplayer as ReactPlayer;
-    console.log(seconds);
     video.seekTo(seconds);
   };
 
@@ -52,8 +51,8 @@ export class VideoPlayer extends React.Component<Props, State> {
   }
 
   onProgressUpdate = (progress: { playedSeconds: number; played: number }) => {
-    const currentProgress = progress.played.toFixed(1);
-    const segmentEndProgress = this.props.video.sequences[this.state.activeSegment][1].toFixed(1);
+    const currentProgress = progress.played.toFixed(2);
+    const segmentEndProgress = this.props.video.sequences[this.state.activeSegment][1].toFixed(2);
     if (currentProgress === segmentEndProgress) {
       // On the end of current segment, loop current segment
       this.seekTo(this.props.video.sequences[this.state.activeSegment][0]);

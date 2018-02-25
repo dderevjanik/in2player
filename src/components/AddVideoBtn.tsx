@@ -22,7 +22,6 @@ export class AddVideoBtn extends React.Component<Props, State> {
   };
 
   onAdd = (videoUrl: string) => {
-    console.log(videoUrl);
     this.props.onAdd(videoUrl);
     this.setState({
       isAddModalVisible: false
