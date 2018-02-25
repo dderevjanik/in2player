@@ -14,10 +14,10 @@ render(
           name: 'Qtake',
           url: 'http://qtakehd.com/video/new_features/QTAKE_1_3_new_features.mp4',
           sequences: [
-            [0.1, 0.25, 'start'],
-            [0.4, 0.6, 'core principles'],
+            [0.0, 0.2, 'start'],
+            [0.4, 0.5, 'core principles'],
             [0.7, 0.8, 'ending'],
-            [0.85, 9.5, 'hiring process']
+            [0.9, 1.0, 'hiring process']
           ]
         }}
       />
